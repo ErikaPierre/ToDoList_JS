@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Div centrale-->
+
+      <div class="stats-container">
+        <!-- Compteur-->
+        <div class="details">
+          <h1>My Todo App</h1>
+          <p>Here is a nice reminder</p>
+          <div id="progressBar">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div class="stats-numbers">
+          <p id="numbers">0 / 0</p>
+        </div>
+      </div>
+
+      <form action="">
+        <!-- Formulaire-->
+        <input type="text" id="taskInput" placeholder="Write your task " />
+        <button type="submit" id="newTask">+</button>
+      </form>
+
+      <!-- List-->
+      <ul id="task-list" class="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  </body>
+</html>
