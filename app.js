@@ -42,7 +42,7 @@ const deleteTask = (index) => {
 
 const editTask = (index) => {
   const updatedTask = document.getElementById("taskInput");
-  taskInput.value = tasks[index].textValue;
+  taskInput.value = tasks[index].text;
   tasks.splice(index, 1);
   updatedList();
   updateStats();
